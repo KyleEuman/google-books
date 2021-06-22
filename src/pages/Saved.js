@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Nav from "../components/Nav/NavBar";
 import API from '../utils/API';
-import SavedList from "../components/SavedList/SavedList";
+import SavedList from "../components/Savedlist/Savedlist";
 
 class Saved extends Component {
 
