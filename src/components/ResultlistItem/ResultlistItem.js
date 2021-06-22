@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-// import API from "../../utils/API";
+ import API from "../../utils/API";
 
-class ResultListItem extends Component {
+class ResultlistItem extends Component {
 
     state = {
         mounted: false,
@@ -68,4 +68,4 @@ class ResultListItem extends Component {
     
 }
 
-export default ResultListItem;
+export default ResultlistItem;

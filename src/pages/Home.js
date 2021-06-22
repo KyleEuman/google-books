@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "../components/Nav/NavBar";
 import {Input, SubmitBtn} from "../components/Search/Search";
 import API from "../utils/API";
-import ResultList from "../components/ResultList/ResultList";
+import Resultlist from "../components/Resultlist/Resultlist";
 
 class Home extends Component {
 
@@ -69,10 +69,10 @@ class Home extends Component {
                 </form>
                 
                 {this.state.books.length ? (
-                    <ResultList 
+                    <Resultlist 
                     bookState={this.state.books}
                     saveGoogleBook={this.saveGoogleBook}>
-                    </ResultList>
+                    </Resultlist>
                 ) : (
                     <div>
                         <hr/>
